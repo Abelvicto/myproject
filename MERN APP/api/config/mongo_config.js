@@ -1,6 +1,6 @@
 require("dotenv").config({ path: "api/.env" });
 const mongoose = require("mongoose");
-const uri = `mongodb+srv://mega_tech:00441100@cluster0.k6njc.mongodb.net/victor_blog?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://mega_tech:@cluster0.k6njc.mongodb.net/?retryWrites=true&w=majority`;
 
 const connect = async () => {
   await mongoose
